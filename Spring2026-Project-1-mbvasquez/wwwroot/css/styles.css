@@ -1,0 +1,46 @@
+﻿body {
+    background-image: linear-gradient(orange, yellow);
+}
+
+* {
+    text-align: center;
+    color: black;
+    font-family: sans-serif, Arial;
+}
+
+#CoverArt, #Trailer {
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+a:link {
+    color: #2196f3;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: darkred;
+}
+
+#Summary {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#List {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Actors {
+    margin: 0px;
+}
+
+#Actors > li {
+    text-align: left;
+}
